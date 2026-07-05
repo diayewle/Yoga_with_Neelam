@@ -154,3 +154,21 @@ h3 {
 .hero-text p {
     margin-top: 0;
 }
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 35px;
+}
+
+.learn-btn {
+    text-decoration: none;
+    color: #3A2418;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.learn-btn:hover {
+    color: #8A4B2A;
+}
